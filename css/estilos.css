@@ -1,0 +1,115 @@
+*{
+    -webkit-bot-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background: #FE9A22;
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    flex: none;
+    top: 0;
+    overflow: hidden; 
+    z-index:100;
+}
+.headtotal{
+    width: 90%;
+    height:100% ;
+    max-width: 1000px;
+    padding: auto;
+    margin: auto;
+    /*background: #ccc;*/
+}
+.logo{
+    float:left;
+    margin:auto 0;
+    width: 150px; 
+    height:100% ;
+    text-align: center;
+    color: #F4F5F7;
+}
+.logo p{
+    margin: 1.5rem 0 1.5rem 0;
+    height: 1.5rem;
+    font-family: 'Great Vibes';
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.menu{
+    float:right;
+    margin:auto;
+    width: 400px;
+    height:100%;
+    text-align: center;
+}
+.menu a{
+    display:inline-block;
+    margin: 1.5rem 0 1.5rem 1rem;
+    height: 1.5rem;
+    color: #F4F5F7;
+    text-decoration: none;
+}
+.menu a:hover{
+    display:inline-block;
+    margin: 1.5rem 0 1.5rem 1rem;
+    height: 1.5rem;
+    color: #8C30F5;
+}
+
+.main{
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.acercaDe{
+    background: #FE9A22;
+    width: 100%; 
+    height:100%;
+    overflow: hidden;
+}
+.contenedor{
+    position:relative;
+    width: 90%;
+    max-width: 1000px;
+    /*background: #ccc;*/
+    margin: auto;
+}
+
+.foto{
+    float:left;
+    width:120px;
+    background:#8C30F5;
+    border-radius: 100%;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 25rem;
+    left: 193px;
+    top: calc(50% - 378px/2 - 1px);
+}
+.foto img{
+    width: 24rem;
+    height: 24rem;
+}
+
+.contenido1{
+    float:right;
+    color: #fff;
+    width: 30rem;
+    margin:auto;
+    width: 400px;
+    height:100%;
+    text-align: center;
+}
+.contenido1 li{
+    display:inline-block;
+    margin: 1.5rem 0 1.5rem 1rem;
+    height: 1.5rem;
+    color: #F4F5F7;
+    text-decoration: none;
+}
